@@ -787,4 +787,5 @@ CONFIG_WCD_DSP_GLINK=y
 CONFIG_KPROBES=y
 CONFIG_HAVE_KPROBES=y
 CONFIG_KPROBE_EVENTS=y
-CONFIG_MODULES=y
+# raphael can activate kernelsu without enabling modules 
+# CONFIG_MODULES=y
